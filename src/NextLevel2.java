@@ -14,6 +14,7 @@ public class NextLevel2 {
 		double MenorNota = 10;
 		int continua = 1;
 		
+		System.out.println("Bem Vindo a Universidade do Bruno");
 		while (continua == 1) {
 			aluno = aluno + 1;
 			//Entrada da informações
@@ -71,7 +72,10 @@ public class NextLevel2 {
 		}	
 		
 		System.out.println("Total de Alunos na Turma = " + aluno);
-		System.out.println("Total de Medias computadas = " + MediaTurma);
+		System.out.println("Total de Alunos Aprovados = " + TotalAprovados);
+		System.out.println("Total de Alunos Reprovados = " + TotalReprovados);
+		System.out.println("Total de Alunos Avaliação Final = " + TotalAF);
+		
 		MediaTurma = MediaTurma / aluno;
 		System.out.println("Nota Media da Turma = " + MediaTurma);
 		System.out.println("Maior Nota = " + MaiorNota);
